@@ -18,24 +18,23 @@ Shopping app API
 
 #### ENDPOINTS
 
-- GET     /api/categories
-        - json response: 20 first categories ordered by name.
-- GET     /api/categories/?page=1
-        - json response: 20 categories per page ordered by name.
-- GET     /api/categories/{id}
-        - json response: Category info ID = {id}
-- POST    /api/categories
-        - json format:
-            {
-                "category_name" = "This is the category name" 
-            }
-        - response: id of the new category
-- PUT     /api/categories/{id}
-        - json format:
-            {
-                "category_name" = "New category name" 
-            }
-        - response: Updated/Not Updated message
-
-- DELETE  /api/categories/{id}
-        - response: Deleted/Not Deleted message
+- GET     
+    - /api/categories
+    - json response: 20 first categories ordered by name.
+- GET     
+    - /api/categories/?page=1
+    - json response: 20 categories per page ordered by name.
+- GET
+    - /api/categories/{id}
+    - json response: Category info ID = {id}
+- POST    
+    - /api/categories
+    - json format: {"category_name" = "This is the category name"}
+    - response: id of the new category
+- PUT
+    - /api/categories/{id}
+    - json format: {"category_name" = "New category name"}
+    - response: Updated/Not Updated message
+- DELETE  
+    - /api/categories/{id}
+    - response: Deleted/Not Deleted message
