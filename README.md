@@ -1,5 +1,5 @@
-# shopping
-Shopping app API
+# SHOPPING
+Shopping app API. PHP and MySQL (No Framework)
 
 #### REQUISITOS
 
