@@ -3,7 +3,7 @@
     define( 'URL', 'http://' . $_SERVER['HTTP_HOST'] . '/' );
 
     define('HOST', 'localhost');
-    define('DB', 'shoping');
+    define('DB', 'shopping');
     define('USER', 'root');
     define('PASSWORD', '');
     define('CHARSET', 'utf8');
